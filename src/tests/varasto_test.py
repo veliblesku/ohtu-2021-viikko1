@@ -4,7 +4,7 @@ from varasto import Varasto
 
 class TestVarasto(unittest.TestCase):
     def setUp(self):
-        self.varasto = Varasto(9)
+        self.varasto = Varasto(10)
         self.varasto2 = Varasto(-5)
         self.varasto3 = Varasto(-5, -7)
 
